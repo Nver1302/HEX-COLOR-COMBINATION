@@ -1,0 +1,45 @@
+.conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+
+}
+
+.hex-colors h1{
+  animation: changecolor 5s infinite alternate;
+}
+
+.hex-colors h2{
+  margin-top: 200px;
+  animation: changecolor 5s infinite alternate;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes changecolor {
+  0%{
+    color: #32a852;
+  }
+  20%{
+    color: #3289a8;
+  }
+  40%{
+    color: #6f32a8;
+  }
+  60%{
+    color: #a8323e;
+  }
+  80%{
+    color: #66a832;
+  }
+  100%{
+    color: #a87932;
+  }
+}
